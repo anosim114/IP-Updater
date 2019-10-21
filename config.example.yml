@@ -1,0 +1,25 @@
+---
+# user data
+api_key: # your cloudflare api key
+email: # the email address you use for cloudflare
+
+
+# interval in seconds
+# default 1200 -> 20 minutes
+interval: 1200
+
+# request body
+# get yours with from the cloudflare api
+body: {
+        "id": "",
+        "type": "A",
+        "name": "example.com",
+        "proxiable": true,
+        "proxied": true,
+        "ttl": 1,
+        "locked": false,
+        "zone_id": "",
+        "zone_name": "",
+        "created_on": ""
+    }
+...
